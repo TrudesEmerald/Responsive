@@ -2,14 +2,13 @@
     margin: 0; padding: o;
 }
 
-.navbar img{
-    height: 40px; width: 40px; padding-bottom: 15px;
-}
-
 .navbar{
     padding: 22px 0;
-    background-color: #34495e !important;
+    /*background-color: #34495e !important;*/
     border-bottom: none !important;
+}
+.navbar-inverse{
+    background-color: transparent!important;
 }
 
 .navbar ul li a{color: white !important;
@@ -34,4 +33,88 @@
 }
 .navbar-inverse .navbar-collapse{
     border-color: transparent !important;
+}
+
+.location{
+    border:1px solid white;
+    border-radius: 50px;
+}
+.slider{
+    height: 700px;
+    width: 100%;
+    background-image: url("../images/slider4.jpg");
+    background-size: cover;
+    background-position: center;
+    color: #fff;
+}
+
+
+.slider-overlay{
+    background:rgba(0,0,0,0.65);
+    position: relative;
+    width: 100%;
+    height: 100%;
+
+}
+.slider-content{
+    position: absolute;
+    top: 39%;
+    width: 100%;
+}
+
+.icons .fa{
+    font-size: 35px;
+    margin-right: 7px;
+}
+.btn1{
+    color: #fff;
+    text-transform: uppercase;
+    padding: 10px 18px;
+    letter-spacing: 1px;
+    border: 2px solid white;
+    background: transparent;
+    border-top-left-radius: 15px;
+    transition: all ease-in 0.5s;
+    font-size: 13px;
+    margin-right: -6px;
+
+}
+.btn1:hover{
+    background-color: deepskyblue;
+    border-color:deepskyblue;
+    color: #fff; 
+    text-decoration: none;
+}
+
+.btn2{
+    font-size:13px;
+    text-transform: uppercase;
+    color: #fff;
+    border: 2px solid white;
+    border-bottom-right-radius: 15px;
+    background-color: transparent;
+    transition: all ease-in 0.5s;
+    letter-spacing: 1px;
+    padding: 10px 18px;
+}
+.btn2:hover{
+    background-color: orangered;
+    border-color: orangered;
+    color:#fff;
+    text-decoration: none;
+}
+.social-networks a.fa{
+    padding: 10px;
+    width: 35px;
+    height: 35px;
+    border: 1px solid white;
+    border-radius: 25px;
+    color:white;
+    margin-right: 2px;
+}
+.social-networks a.fa:hover{
+    background-color: deepskyblue;
+    border:1px solid deepskyblue;
+    text-decoration: none;
+    transition: all ease-in 0.5s;
 }

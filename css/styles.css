@@ -152,7 +152,7 @@
     100%{opacity:1;}
  }
 
-/*======Services styles======*/
+/*===============================Services styles=============================*/
 .service-area{
     margin-top: 30px;
 }
@@ -215,7 +215,7 @@
 .service-wrap:hover::after h3{
     background-color: #fff;
 }
-.service-icon i{
+.service-icon>i{
     font-size: 30px;
     margin-bottom: 20px;
     transition: all 0.5s;
@@ -228,3 +228,24 @@
     font-size: 14px;
     margin-bottom: 0;
 }
+/*===============================Services styles=============================*/
+
+/*===============================Works styles=============================*/
+
+.row.no-gutters [class*="col-"]{
+padding-left: 0;
+padding-right: 0;
+}
+.img-wrapper{
+    overflow: hidden;
+}
+.img-wrapper img{
+    transition: transform 0.5s ease;
+    width: 100%;
+}
+.img-wrapper img:hover{
+    transform: scale(1.5);
+    cursor: zoom-in;
+}
+
+/*===============================Services styles=============================*/

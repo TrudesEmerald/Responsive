@@ -1,4 +1,4 @@
-*{
+*{  box-sizing: border-box;
     margin: 0; padding: o;
 }
 
@@ -164,7 +164,7 @@
     overflow: hidden;
     padding: 25px 35px;
     position: relative;
-    z-index: index 9;
+    z-index: 9;
     margin-top: 20px;
     transition:all 0.5s ease 0s;
  
@@ -249,3 +249,47 @@ padding-right: 0;
 }
 
 /*===============================Services styles=============================*/
+
+/*===============================Team member section starts=============================*/
+
+.team-member{ 
+    margin:50px 15px 0 15px;
+}
+.team-member-info{
+    padding: 10px 0 30px 0;
+}
+h4.team-member-name{
+    font-size: 19px;
+    font-weight: 700;
+    letter-spacing: 1px;
+    padding-top: 2px;
+}
+h4.team-member-designation{
+    color: deepskyblue;
+    font-size: 15px;
+    font-weight: 700;
+    letter-spacing: 1px;
+    margin-top: 5px;
+    text-transform: capitalize;
+}
+
+.social-list{
+    padding-left: 0;
+}
+.social-list li{
+    list-style: none;
+    display: inline-block;
+    width: 32px;
+    height: 32px;
+    margin-right: 6px;
+    margin-left: 10px;
+}
+.social-list i{
+    font-size: 17px;
+}
+.icon-gray{
+    color: #64707b;
+}
+
+
+/*===============================Team member section ends=============================*/

@@ -291,5 +291,40 @@ h4.team-member-designation{
     color: #64707b;
 }
 
-
 /*===============================Team member section ends=============================*/
+
+/*===============================Testimonials styles Start=============================*/
+
+.carousel-inner img{
+    width: 150px;
+    height: 150px;
+    border-radius: 100%;
+    border: 3px solid #fff;
+    padding: 5px;
+}
+.testimonials{
+    background-image: url('../images/responsive/reviews.jpg');
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+    color: #fff;
+    padding-top: 80px;
+    padding-bottom: 155px;
+}
+.testimonials ol.carousel-indicators{
+    bottom:-60px;
+}
+.border-bottom{
+    background-color: #fff;
+    width: 40px;
+    height: 2px;
+    margin: 0 auto;
+}
+
+.carousel-inner p{
+font-size: 17px;
+font-weight: normal;
+letter-spacing: 1px;
+margin-top: 30px;
+}
+/*===============================Testimonials styles End=============================*/

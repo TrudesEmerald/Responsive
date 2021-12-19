@@ -328,3 +328,83 @@ letter-spacing: 1px;
 margin-top: 30px;
 }
 /*===============================Testimonials styles End=============================*/
+
+
+
+
+/*===============================FAQ styles Start=============================*/
+#accordian .panel{
+    box-shadow: none;
+    border: none;
+    border-radius: 10px;
+    margin-bottom: 10px;
+}
+
+#accordian .panel-heading{
+    padding: 0;
+    border: none;
+    border-radius: 10px;
+
+}
+
+#accordian .panel-title a{
+    font-size: 15px;
+    padding: 25px 35px;
+    background: #34495e;
+    color: #fff;
+    border: none;
+    display: block;
+    font-weight:600;
+    position: relative;
+    transition: all 0.3s ease 0s;
+    text-decoration: none;
+    font-weight: none;
+}
+
+#accordian .panel-title a:before,
+#accordian .panel-title a.collapsed:before
+{content: "\f068"; 
+font-family: fontawesome;
+height: 40px;
+width: 40px;
+line-height:32px ;
+border-radius: 50px;
+background: #34495e;
+font-size: 15px;
+text-align: center;
+color: #fff;
+border: 5px solid white;
+position: absolute;
+top: 10px ;
+left: -20px;
+transition: all 0.3s ease;
+}
+
+#accordian .panel-title a.collapsed:before{
+    content: "\f067";
+}
+#accordian .panel-title a:hover:before,
+#accordian .panel-title a.collapsed:hover:before{
+transform: rotate(360deg);
+}
+
+#accordian .panel-body{
+    padding: 15px 25px;
+    background: #ebebeb;
+    font-size: 14px;
+    color: #8c8c8c;
+    line-height: 25px;
+    border-top: none;
+    position:relative ;
+}
+
+.freeImage img{
+    margin-top: -45px;
+}
+
+
+
+
+
+
+/*===============================FAQ styles Start=============================*/

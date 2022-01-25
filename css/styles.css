@@ -20,7 +20,7 @@
 
 }
 
-.navbar ul li a:hover{
+.navbar ul li a:hover .navbar ul li a:focus{
      color:deepskyblue !important;
 }
 
@@ -463,16 +463,18 @@ transform: rotate(360deg);
 /*===============================Blog styles start=============================*/
 .latest-news-area{
  margin-top: 40px;
+
 }
 .latest-news-wrap{
     box-shadow: 0px 3px 10px rgba(0,0,0,0.1);
+    margin-bottom: 20px;
 }
 .news-img{
-    position:relative ;
+    position: relative;
 }
 .news-img:before{
     content: "";
-    position: absolute;
+    position: absolute ;
     left: 0;
     top: 0;
     width : 100%;
@@ -505,6 +507,7 @@ transform: rotate(360deg);
 .news-content{
     padding: 20px;
     margin-left: 3px;
+    
 }
 .news-content i{
     font-size: 18px;
@@ -578,3 +581,105 @@ transform: rotate(360deg);
 }
 
 /*===============================Counter Stat styles End=============================*/
+
+/*===============================Contact styles Start=============================*/
+.contact-area{
+    margin-right: 0px;
+}
+.form-control{
+    border-radius: 0px!important;
+    border: 1px solid #34495e!important;
+
+}
+.contact-form .btn{
+    border: 1px black solid;
+}
+.contact-form button .btn{
+    font-size: 1.8rem;
+    font-weight: 700;
+    padding: 12px 43px;
+    border: 1px solid black;
+    border-radius: 0px;
+}
+.border-bottom{
+    width: 40px;
+    height: 2px;
+    background-color: black;
+
+}
+
+.contact-infos{
+    float:left;
+    width: 100%;
+    background: darkcyan;
+    margin-top: 90px;
+    margin-bottom: -30px;
+    padding-top: 35px;
+    padding-bottom: 35px;
+    margin-right: 0px;
+    background-clip: inherit ;
+}
+.contact-infos .fa{
+    color: white;
+    font-size: 26px;
+    line-height: 50px;
+    border: 1px solid white;
+    border-radius: 50%;
+    width: 50px;
+}
+
+
+.contact-item p{
+    color: white;
+    margin-top: 15px;
+}
+
+
+
+/*===============================Contact styles End=============================*/
+
+/*===============================Map styles End=============================*/
+.maps{
+
+}
+/*===============================Map styles End=============================*/
+
+/*===============================Footer styles Start=============================*/
+.footer{
+    background: url('../images/responsive/Black-Wood-Footer-Background.jpg');
+    background-size: cover;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    padding-top: 150px;
+    padding-bottom: 140px;
+    background-attachment: fixed;
+    color: #fff;
+}
+.social-icon a{
+    margin: 0px 16px 20px 16px;
+    display: inline-block;
+}
+.footer .fa{
+    font-size: 30px;
+    color: deepskyblue;
+    width:60px;
+    height:60px;
+    border-top-right-radius:20px ;
+    border-bottom-left-radius: 20px;
+    background: #fff;
+    line-height: 1.5;
+    border: 10px solid #24495e;
+    text-align: center;
+    transition: all 0.7s ease-in;
+}
+.social-icon a:hover .fa{
+    border :10px solid #fff;
+    transform: rotate(360deg);
+}
+.bordernow{
+    width: 40px;
+    border-bottom: 2px solid #fff;
+    margin:0 auto;
+    margin-top: 20px;
+}
+/*===============================Footer styles End=============================*/

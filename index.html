@@ -8,6 +8,7 @@
     
    
     <link href="css/styles.css" rel="stylesheet">
+    <link href="css/responsive.css" rel="stylesheet">
     <link rel="shortcut icon"   href="images/favicon.png">
     <!------------ Magnific Popup css files ------------------------>
     <link rel="stylesheet" href="css/magnific-popup.css">
@@ -18,14 +19,23 @@
     <link rel="stylesheet"  href="css/owl.theme.default.min.css">
     <!------------ Owl Carousel css files end------------------------>
 
+      <!------------Animate css files start------------------------>
+
+    <link href="css/animate.css-main/animate.min.css" rel="stylesheet">
+
+    <link href="css/animate.css-main/animate.css" rel="stylesheet">
+      <!------------ Animate css files end------------------------>
+
 
 
     <!------------ Font awesome cdn files ------------------------>
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
      <!------------ Font awesome cdn files end ------------------------>
 
     <!-- Latest compiled and minified CSS -->
-<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+<!-----<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css"> ------>
 
 <!-- jQuery library -->
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
@@ -39,7 +49,11 @@
   <!------------ Owl Carousel Js files start------------------------>
 
 <!-- Latest compiled JavaScript -->
-<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+<script src="js/bootstrap.min.js" type="text/javascript"></script>
+
+<!-------<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>----->
+
+
 </head>
 
 <body>
@@ -54,21 +68,21 @@
 
         </button>
            <div class="navbar-header">
-           <a href="#" class="navbar-brand">
+           <a href="#" class="navbar-brand animate__animated  animate__bounceInDown">
                <img src="images/blid-logo.png">
            </a>
         </div>
 
         <div class="collapse navbar-collapse" id="nav1">
-            <ul class="nav navbar-nav navbar-right" >
-                <li><a href="#">Home</a></li>
-                <li><a href="#">Our Services</a></li>
-                <li><a href="#"> Works</a></li>
-                <li><a href="#">Team</a></li>
-                <li><a href="#">About Us</a></li>
-                <li><a href="#">Blog</a></li>
-                <li><a href="#">Career</a></li>
-                <li><a href="#" class="location">Our Location</a></li>
+            <ul class="nav navbar-nav navbar-right animate__animated  animate__bounceInDown" >
+                <li><a href="#sliderr"  class="smooth-scroll">Home</a></li>
+                <li><a href="#services" class="smooth-scroll">Our Services</a></li>
+                <li><a href="#works" class="smooth-scroll"> Works</a></li>
+                <li><a href="#team" class="smooth-scroll">Team</a></li>
+                <li><a href="#testimonial" class="smooth-scroll">About Us</a></li>
+                <li><a href="#latest" class="smooth-scroll">Blog</a></li>
+                <li><a href="#contact_area" class="smooth-scroll">Career</a></li>
+                <li><a href="#map" class="location smooth-scroll">Our Location</a></li>
             </ul>
         </div>
        </div>
@@ -110,14 +124,14 @@
         <div class="container">
             <div class="row">
                 <div class="col-xs-12">
-                    <div class="section-title text-center">
+                    <div class="section-title text-center animate__animated  animate__zoomIn wow zoomIn"  data-wow-duration="1s" data-wow-delay="1s">
                         <h2><b>OUR SERVICES</b></h2>
                         <p>You can ask questions regarding the issues, we will solve that together for sure
                         </p>
                     </div>
                 </div>             
             </div>
-            <div class="row">
+            <div class="row animate__animated  animate__bounceInUp wow bounceInUp" data-wow-duration="1.3s" data-wow-delay="1.3s">
                 <div class="col-md-4 col-sm-6 col-xs-12">
                     <div class="service-wrap text-center">
                         <div class="service-icon">
@@ -212,7 +226,7 @@
 
     <!----------------------------works markups begins--------------------------->
     <br><br><br><br><br>
-    <section class="work" id="works">
+    <section class="work animate__animated  animate__bounceInUp wow bounceInUp" data-wow-duration="1.5s" data-wow-delay="1.5s" id="works">
         <div class="container-fluid">
             <div class="row no-gutters">
                 <div class="col-md-3 col-sm-3 col-xs-3">
@@ -287,15 +301,15 @@
 
      <!----------------------------Team section starts--------------------------->
      <br><br><br>
-     <section class="teams">
-         <div class="container text-center">
+     <section class="teams" id="team">
+         <div class="container text-center animate__animated  animate__bounceInUp wow bounceInUp" data-wow-duration="1.5s" data-wow-delay="1.5s">
              <h2><b>MEMBERS</b></h2>
              <p>
                  You can ask questions regarding the issues,we will <br>
                  solve that together for sure.
              </p>
          </div><br>
-         <div class="container">
+         <div class="container animate__animated  animate__bounceInLeft wow bounceInLeft" data-wow-duration="1.2s" data-wow-delay="1.2s">
              <div class="row">
                  <div class="col-md-12">
                      <div id="team-members" class="owl-carousel owl-theme">
@@ -406,7 +420,7 @@
      <section id="testimonial" class="testimonials">
          <div class="container">
              <div class="row">
-                 <div class="col-md-12 text-center">
+                 <div class="col-md-12 text-center animate__animated  animate__fadeInDownBig wow fadeInDownBig">
                      <br><br>
                      <h2><b>REVIEWS</b></h2>
                      <div class="sub-heading">
@@ -415,7 +429,7 @@
                  </div>
              </div> <br></br><br>
 
-             <div class="row">
+             <div class="row animate__animated  animate__fadeInDownBig wow fadeInDownBig">
                  <div class="col-sm-12">
                     <div id="carousel-testimonials"  class="carousel slide"  data-ride="carousel" ><br>
                         <ol class="carousel-indicators">
@@ -472,7 +486,7 @@
       <section class="faq">
         <div class="container">
             <div class="row">
-                <div class="col-md-12 text-center">
+                <div class="col-md-12 text-center animate__animated  animate__zoomIn wow zoomIn" data-wow-duration="0.4s" data-wow-delay="0.4s">
                     <h2>
                         <b> GENERAL FAQs </b>
                     </h2>
@@ -487,7 +501,7 @@
 
         <br><br><br><br>
 
-         <div class="container">
+         <div class="container animate__animated  animate__bounceInLeft wow bounceInLeft" data-wow-duration="0.6s" data-wow-delay="0.6s">
              <div class="row">
                  <div class="col-md-7">
                      <div class="panel-group" id="accordian">
@@ -578,7 +592,7 @@
                      </div>
                  </div>
                   
-                 <div class="freeImage">
+                 <div class="freeImage animate__animated  animate__bounceInRight wow bounceInRight" data-wow-duration="0.8s" data-wow-delay="0.8s">
                  <div class="col-md-2 col-md-offset-1">
                      <img src="images/responsive/3-front.png">
                  </div>
@@ -593,7 +607,7 @@
      
        
       <!----------------------Video Section Starts--------------------------->
-      <section class="video-area"  id="video">
+      <section class="video-area animate__animated  animate__bounceInUp wow bounceInUp"  id="video">
         <div  class="color-overlay"  id="color_overlay">
             <div class="video-container">
                 <div id="player"></div>
@@ -619,7 +633,7 @@
          <div class="container">
              <div class="row">
                  <div class="col-xs-12">
-                     <div class="section-title text-center">
+                     <div class="section-title text-center animate__animated  animate__zoomIn wow zoomIn" data-wow-duration="0.2s" data-wow-delay="0.2s">
                          <h2><b>RECENT BLOG</b></h2>
                          <div class="sub-heading">
                              <p>
@@ -632,10 +646,10 @@
 
              <div class="row">
                   <div class="news-active">
-                     <div class="col-md-4 col-sm-6 col-xs-12">
+                     <div class="col-md-4 col-sm-6 col-xs-12 animate__animated  animate__fadeInLeft wow fadeInLeft" data-wow-duration="0.4s" data-wow-delay="0.4s">
                         <div class="latest-news-wrap">
                             <div class="news-img">
-                                <img src="../images/responsive/1.jpg" class="img-responsive">
+                                <img src="images/responsive/1.jpg" class="img-responsive">
                                 <div class="date">
                                     <span>31</span>
                                     <span>Dec</span>
@@ -654,7 +668,7 @@
                                        Explicabo voluptatum possimus repudiandae mollitia est
                                         optio quasi reprehenderit architecto! Dicta, voluptatem? 
                                         Provident suscipit aliquam nam,  
-                                       similique nisi unde necessitatibus
+                                       similique nisi unde 
                                    </p>
                                    <a href="#">Read more...</a>
                                </div>
@@ -665,7 +679,7 @@
                   <div class="col-md-4 col-sm-6 col-xs-12">
                       <div class="latest-news-wrap">
                       <div class="news-img">
-                          <img src="../images/responsive/2.jpg" class="img-responsive">
+                          <img src="images/responsive/2.jpg" class="img-responsive">
                           <div class="date">
                               <span>31</span>
                               <span>Dec</span>
@@ -690,15 +704,17 @@
                     
                     </div>
                   
-                    <div class="col-md-4 col-sm-6 col-xs-12">
+                    <div class="col-md-4 col-sm-6 col-xs-12  animate__animated  animate__fadeInRight wow fadeInRight" data-wow-duration="0.6s" data-wow-delay="0.6s">
                         <div class="latest-news-wrap">
                             <div class="news-img">
-                                <img src="../images/responsive/3.jpg" class="img-responsive">
+                                <img src="images/responsive/3.jpg" class="img-responsive">
                                 <div class="date">
                                     <span>31</span>
                                     <span>Dec</span>
                                 </div>
                             </div>
+
+                            
                             <div class="news-content">
                                 <i class="fa fa-facebook"></i>
                                 <i class="fa fa-twitter"></i>
@@ -733,7 +749,7 @@
 
             <div class="container">
                 <div class="row text-center">
-                    <div class="col-md-3">
+                    <div class="col-md-3  animate__animated  animate__fadeInLeft wow fadeInLeft" data-wow-duration="0.3s" data-wow-delay="0.3s">
                         <div class="stat-items">
                             <i class="fa fa-tv"></i>
                             <h2><span class="counter text-center">3200</span>
@@ -741,7 +757,7 @@
                                  <p>VIEWS</p>
                         </div>
                     </div>
-                    <div class="col-md-3">
+                    <div class="col-md-3  animate__animated  animate__fadeInLeft wow fadeInLeft" data-wow-duration="0.6s" data-wow-delay="0.6s">
                         <div class="stat-items">
                             <i class="fa fa-android"></i>
                             <h2><span class="counter text-center">3987</span>
@@ -749,7 +765,7 @@
                                 <p>ANDROID USERS</p>
                         </div>
                     </div>
-                    <div class="col-md-3">
+                    <div class="col-md-3  animate__animated  animate__fadeInLeft wow fadeInLeft" data-wow-duration="0.9s" data-wow-delay="0.9s">
                         <div class="stat-items">
                             <i class="fa fa-apple"></i>
                             <h2><span class="counter text-center">7289</span>  
@@ -757,7 +773,7 @@
                             <p>INTERNATIONALLY</p>
                         </div>
                     </div>
-                    <div class="col-md-3">
+                    <div class="col-md-3  animate__animated  animate__fadeInLeft wow fadeInLeft" data-wow-duration="1.2s" data-wow-delay="1.2s">
                         <div class="stat-items">
                             <i class="fa fa-windows"></i>
                             <h2><span class="counter text-center">3934</span>   
@@ -775,11 +791,165 @@
 
     <!----------------------Counter Stat Section Ends--------------------------->
 
+    <!----------------------Contact Section starts--------------------------->
+
+    <section class="contact-area" id="contact_area">
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-md-6 col-md-offset-3 text-center">
+                    <div class="section-heading  animate__animated  animate__fadeInUp wow fadeInUp" data-wow-duration="0.2s" data-wow-delay="0.2s">
+                        <h2 class="section-title">
+                            <b>LEAVE A MESSAGE</b>
+                        </h2>
+                        <div class="border-bottom"></div>
+                    </div>
+                </div>
+            </div>
+
+<br><br><br>
+            <div class="row  animate__animated  animate__fadeInUp wow fadeInUp">
+                <div class="col-md-8 col-md-offset-2">
+                    <form id="contactform" class="contact-form">
+                        <div class="row">
+                            <div class="col-md-6">
+                            <input id="name" class="form-control" type="text" 
+                            name="name" placeholder="Name" required>
+                             </div>
+
+                              <div class="col-md-6">
+                            <input id="email" class="form-control" type="email" 
+                            name="email" placeholder="Email" required>
+                             </div>
+                            
+
+                        <div class="col-md-12"><br>
+                            <input type="text" name="subject" id="subject"
+                             placeholder="Subject" class="form-control" required>
+                        </div>
+                         
+                          <div class="col-md-12"><br>
+                            <textarea type="text" name="message" id="message"  rows="5"
+                             placeholder="Message" class="form-control" required>Message </textarea>
+                        </div>
+                         
+                         <div class="col-md-12 text-center"> <br><br>
+                            <button class="btn" type="submit">Submit Message </button>
+                         </div>
+
+                         </div>
+
+                    </form>
+                </div>
+            </div>
+
+
+
+          
+          
+               <div class="row ">
+                <div class="contact-infos ">
+                    <div class="col-md-4 col-xs-12 text-center">
+                        <div class="contact-item  animate__animated  animate__fadeInLeft wow fadeInLeft" data-wow-duration="0.3s" data-wow-delay="0.3s">
+                            <span class="contact-icon">
+                                <i class="fa fa-map-marker"></i>
+                            </span>
+                            <p class="contact-detail">
+                                00233 Post Street, Accra Ghana<br>
+                                Accra Post Office
+                            </p>
+                        </div>
+                    </div>
+
+                     <div class="col-md-4 text-center  animate__animated  animate__fadeInLeft wow fadeInLeft" data-wow-duration="0.6s" data-wow-delay="0.6s">
+                        <div class="contact-item">
+                            <span class="contact-icon">
+                                <i class="fa fa-envelope"></i>
+                            </span>
+                            <p class="contact-detail">
+                                info@btechbs.com<br>
+                                codeafric@btechbs.com
+                            </p>
+                        </div>
+                    </div>
+
+                     <div class="col-md-4 text-center  animate__animated  animate__fadeInLeft wow fadeInLeft" data-wow-duration="0.9s" data-wow-delay="0.9s">
+                        <div class="contact-item">
+                            <span class="contact-icon">
+                                <i class="fa fa-phone"></i>
+                            </span>
+                            <p class="contact-detail">+233-2454-96252 - Office <br>
+                                +233-2411-80305 
+                                -fax
+                                
+                            </p>
+                        </div>
+                    </div>
+            </div>
+        
+        </div>
+    </div>
+
+    </section>
+
+    <!----------------------Contact Section Ends--------------------------->
+
+     <!----------------------Map Section Start--------------------------->
+<section class="maps  animate__animated  animate__fadeInUp wow fadeInUp" id="map">
+    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d507218.694722163!2d-1.
+    8963061068282752!3d6.690688309873264!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x
+    fdb93e59a4e4c49%3A0x829c711d7b65e682!2sKumasi!5e0!3m2!1sen!2sgh!4v1642703914561!5m2!1sen!2sgh" width="100%" height="450"
+     style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+    </section>
+
+ <!----------------------Map Section Ends--------------------------->
+
+  <!----------------------Footer Section Start--------------------------->
+<footer class="footer">
+    <div class="container">
+        <div class="row">
+            <div class="col-sm-12 text-center">
+                <div class="social-icon">
+                    <a href="#"> <i class="fa fa-facebook   animate__animated  animate__fadeInLeft wow fadeInLeft" data-wow-duration="0.3s" data-wow-delay="0.3s"></i> </a>
+                    <a href="#"> <i class="fa fa-twitter    animate__animated  animate__fadeInLeft wow fadeInLeft" data-wow-duration="0.6s" data-wow-delay="0.6s"></i> </a>
+                    <a href="#"> <i class="fa fa-google-plus   animate__animated  animate__fadeInLeft wow fadeInLeft" data-wow-duration="0.9s" data-wow-delay="0.9s"></i> </a>
+                    <a href="#"> <i class="fa fa-pinterest     animate__animated  animate__fadeInLeft wow fadeInLeft" data-wow-duration="1.2s" data-wow-delay="1.2s"></i> </a>
+                    <a href="#"> <i class="fa fa-rss     animate__animated  animate__fadeInLeft wow fadeInLeft" data-wow-duration="1.5s" data-wow-delay="1.5s"></i> </a>
+                    <a href="#"> <i class="fa fa-linkedin      animate__animated  animate__fadeInLeft wow fadeInLeft" data-wow-duration="1.8s" data-wow-delay="1.8s"></i> </a>
+                    <a href="#"> <i class="fa fa-vimeo-square  animate__animated  animate__fadeInLeft wow fadeInLeft" data-wow-duration="2.1s" data-wow-delay="2.1s"></i> </a>
+                    <a href="#"> <i class="fa fa-youtube   animate__animated  animate__fadeInLeft wow fadeInLeft" data-wow-duration="2.4s" data-wow-delay="2.4s"></i> </a>
+                    <a href="#"> <i class="fa fa-whatsapp animate__animated  animate__fadeInLeft wow fadeInLeft" data-wow-duration="2.7s" data-wow-delay="2.7s"></i> </a>
+                </div><br>
+                <div class="copyright">
+                    <p class="footerlogo">
+                        &copy; <img src="images/responsive/blid-logo.png" class="">
+                    </p>
+                    <div class="bordernow"></div>
+                </div>
+            </div>
+        </div>
+    </div>
+</footer>
+
+   <!----------------------Footer Section Ends--------------------------->
+
+
+
+
+
+
+
+
+
+
     <script src="js/jquery.ripples-min.js" type="text/javascript"></script>
     <script src="js/typed.min.js" type="text/javascript">  </script>
     <script src="js/jquery.counterup.min.js" type="text/javascript"> </script>
     <script src="js/jquery.waypoints.min.js" type="text/javascript"> </script>
     <script src="js/main.js" type="text/javascript"></script>
+    <script src="js/smoothscroll.js"  type="text/javascript"></script>
+    <script src="js/easing.js"  type="text/javascript"></script>
+    <script src="js/wow.min.js" type="text/javascript"></script>
+  
    
 </body>
                                                                                                                          
